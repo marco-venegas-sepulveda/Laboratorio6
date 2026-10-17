@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxisGym | Entrenamientos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Maxis<span>Gym</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina1.html">Pagina 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina2.html">Pagina 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina3.html">Pagina 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="fw-bold mb-1">Entrenamientos de calistenia</h1>
+    <p class="text-secondary mb-4">Tres ejercicios base para construir fuerza usando solo tu peso corporal.</p>
+
+    <p>La calistenia es un método de entrenamiento que utiliza el propio peso corporal como resistencia. No
+      necesitas máquinas costosas: con una barra, el piso y constancia puedes desarrollar fuerza, control y
+      resistencia en todo el cuerpo.</p>
+    <p>El secreto está en la progresión. Cada ejercicio tiene variantes más sencillas y más difíciles, así que
+      puedes empezar donde estés hoy y avanzar poco a poco aumentando repeticiones, series o la dificultad del
+      movimiento.</p>
+    <p>A continuación encontrarás los tres movimientos fundamentales de nuestro programa, con su nivel de
+      dificultad y una guía rápida de técnica para evitar lesiones.</p>
+
+    <!-- Componente Bootstrap 1: Cards (con badges) -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="img/dominadas.svg" class="card-img-top" alt="Ilustración de una dominada en barra">
+          <div class="card-body">
+            <h5 class="card-title">Dominadas <span class="badge text-bg-danger">Avanzado</span></h5>
+            <p class="card-text">Trabajan espalda, bíceps y agarre. Empieza con dominadas negativas o con banda.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="img/sentadillas.svg" class="card-img-top" alt="Ilustración de una sentadilla">
+          <div class="card-body">
+            <h5 class="card-title">Sentadillas <span class="badge text-bg-success">Principiante</span></h5>
+            <p class="card-text">Fortalecen piernas y glúteos. Mantén la espalda recta y las rodillas alineadas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="img/lagartijas.svg" class="card-img-top" alt="Ilustración de una lagartija">
+          <div class="card-body">
+            <h5 class="card-title">Lagartijas <span class="badge text-bg-warning">Intermedio</span></h5>
+            <p class="card-text">Desarrollan pecho, hombros y tríceps. Cuerpo en línea recta de cabeza a talones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Componente Bootstrap 2: Accordion -->
+    <h2 class="h4 fw-bold mt-5 mb-3">Rutina semanal sugerida</h2>
+    <div class="accordion" id="rutina">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dia1"
+            aria-expanded="true" aria-controls="dia1">Lunes y jueves — Tren superior</button>
+        </h2>
+        <div id="dia1" class="accordion-collapse collapse show" data-bs-parent="#rutina">
+          <div class="accordion-body">4 series de dominadas (al fallo técnico) + 4 series de 12 lagartijas.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dia2"
+            aria-expanded="false" aria-controls="dia2">Martes y viernes — Tren inferior</button>
+        </h2>
+        <div id="dia2" class="accordion-collapse collapse" data-bs-parent="#rutina">
+          <div class="accordion-body">5 series de 15 sentadillas + 3 series de 10 zancadas por pierna.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dia3"
+            aria-expanded="false" aria-controls="dia3">Miércoles — Descanso activo</button>
+        </h2>
+        <div id="dia3" class="accordion-collapse collapse" data-bs-parent="#rutina">
+          <div class="accordion-body">Caminata de 30 minutos y estiramientos de movilidad.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-3 text-center small">
+    Laboratorio 6 · Programación Web · Marco Antonio Venegas Sepúlveda · 2103152
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

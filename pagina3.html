@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxisGym | Comunidad</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Maxis<span>Gym</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina1.html">Pagina 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina2.html">Pagina 2</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina3.html">Pagina 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <!-- Componente Bootstrap 1: Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>¡Nuevo reto!</strong> Este mes arranca el reto de 30 días. Inscríbete antes del viernes.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+    </div>
+
+    <h1 class="fw-bold mb-1">Comunidad MaxisGym</h1>
+    <p class="text-secondary mb-4">Entrenar acompañado es más fácil y más divertido.</p>
+
+    <div class="row g-4 align-items-center mb-4">
+      <div class="col-md-6">
+        <img src="img/comunidad.svg" class="img-seccion shadow-sm" alt="Ilustración de tres personas de la comunidad">
+      </div>
+      <div class="col-md-6">
+        <p>Nuestra comunidad reúne a personas de todos los niveles: desde quien hace su primera lagartija hasta
+          quien ya domina la dominada a una mano. Lo que nos une es la constancia y las ganas de mejorar.</p>
+        <p>Cada semana organizamos sesiones grupales en el parque, compartimos rutinas y celebramos los logros de
+          cada integrante. Nadie entrena solo.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center mb-4">
+      <div class="col-md-6 order-md-2">
+        <img src="img/reto.svg" class="img-seccion shadow-sm" alt="Ilustración de una estrella con el texto 30 días">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <p>El reto de 30 días consiste en completar una rutina corta diaria y registrar tu avance. Al final del mes
+          comparamos resultados y premiamos a quienes cumplieron todos los días.</p>
+        <!-- Componente Bootstrap 2: Modal -->
+        <button type="button" class="btn btn-warning fw-semibold" data-bs-toggle="modal" data-bs-target="#modalReto">
+          Ver reglas del reto
+        </button>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <img src="img/coach.svg" class="img-seccion shadow-sm" alt="Ilustración de un entrenador con una tabla de rutina">
+      </div>
+      <div class="col-md-6">
+        <p>Nuestros entrenadores certificados revisan tu técnica y ajustan tu rutina según tus objetivos.</p>
+        <!-- Componente Bootstrap 3: List group -->
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">Asesoría de técnica <span class="badge text-bg-dark rounded-pill">Lun–Vie</span></li>
+          <li class="list-group-item d-flex justify-content-between">Sesión grupal en parque <span class="badge text-bg-dark rounded-pill">Sábado</span></li>
+          <li class="list-group-item d-flex justify-content-between">Revisión de progreso <span class="badge text-bg-dark rounded-pill">Mensual</span></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contenido del modal -->
+  <div class="modal fade" id="modalReto" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="tituloModal">Reglas del reto de 30 días</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <ol class="mb-0">
+            <li>Completa la rutina diaria (20 sentadillas, 10 lagartijas, 5 dominadas).</li>
+            <li>Registra tu avance todos los días.</li>
+            <li>Si fallas un día, el contador vuelve a empezar.</li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="py-3 text-center small">
+    Laboratorio 6 · Programación Web · Marco Antonio Venegas Sepúlveda · 2103152
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
