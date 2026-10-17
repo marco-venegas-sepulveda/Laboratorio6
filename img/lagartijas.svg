@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14532d"/><stop offset="1" stop-color="#22c55e"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="680" cy="90" r="140" fill="#fff" opacity=".07"/><circle cx="90" cy="460" r="170" fill="#000" opacity=".08"/>
+<rect x="0" y="330" width="800" height="8" fill="#fff" opacity=".4"/><circle cx="550" cy="235" r="22" fill="#ffffff"/><path stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" d="M530 245 L310 305 M500 255 L510 330 M310 305 L240 330"/>
+<text x="40" y="465" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".9">Lagartijas</text>
+</svg>

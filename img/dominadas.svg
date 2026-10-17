@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="680" cy="90" r="140" fill="#fff" opacity=".07"/><circle cx="90" cy="460" r="170" fill="#000" opacity=".08"/>
+<rect x="220" y="95" width="360" height="14" rx="7" fill="#fff" opacity=".9"/><rect x="230" y="60" width="12" height="400" fill="#fff" opacity=".4"/><rect x="558" y="60" width="12" height="400" fill="#fff" opacity=".4"/><circle cx="400" cy="140" r="22" fill="#ffffff"/><path stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" d="M400 165 L400 260 M400 180 L355 90 M400 180 L445 90 M400 260 L380 340 M400 260 L420 340"/>
+<text x="40" y="465" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".9">Dominadas</text>
+</svg>

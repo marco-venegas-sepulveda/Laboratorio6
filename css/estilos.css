@@ -1,0 +1,62 @@
+/* Estilos propios - Laboratorio 6 */
+:root {
+  --naranja: #ea580c;
+  --oscuro: #0f172a;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8fafc;
+}
+
+.navbar-brand span {
+  color: var(--naranja);
+}
+
+/* Marca visual de la página actual en el menú */
+.navbar .nav-link.active {
+  color: #fff !important;
+  background-color: var(--naranja);
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--oscuro), #1e293b);
+  color: #fff;
+}
+
+.hero img {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35);
+}
+
+.texto-grande {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.texto-grande span {
+  color: var(--naranja);
+}
+
+.img-seccion {
+  width: 100%;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+footer {
+  background-color: var(--oscuro);
+  color: #cbd5e1;
+}

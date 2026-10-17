@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7f1d1d"/><stop offset="1" stop-color="#ef4444"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="680" cy="90" r="140" fill="#fff" opacity=".07"/><circle cx="90" cy="460" r="170" fill="#000" opacity=".08"/>
+<path d="M400 70 l40 90 l95 8 l-72 62 l22 93 l-85 -50 l-85 50 l22 -93 l-72 -62 l95 -8z" fill="#fde047"/><text x="400" y="400" text-anchor="middle" font-family="Arial" font-size="60" font-weight="800" fill="#fff">30 DÍAS</text>
+<text x="40" y="465" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".9">Reto mensual</text>
+</svg>
